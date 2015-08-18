@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C005BE241B80ED510061D9C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C005BE231B80ED510061D9C5 /* main.m */; };
+		C005BE271B80ED510061D9C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C005BE261B80ED510061D9C5 /* AppDelegate.m */; };
+		C005BE2A1B80ED510061D9C5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C005BE291B80ED510061D9C5 /* FirstViewController.m */; };
+		C005BE2D1B80ED510061D9C5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C005BE2C1B80ED510061D9C5 /* SecondViewController.m */; };
+		C005BE301B80ED510061D9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C005BE2E1B80ED510061D9C5 /* Main.storyboard */; };
+		C005BE351B80ED510061D9C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C005BE331B80ED510061D9C5 /* LaunchScreen.xib */; };
+		C005BE411B80ED510061D9C5 /* SimpleMCChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C005BE401B80ED510061D9C5 /* SimpleMCChatTests.m */; };
+		C005BE4C1B80EDD70061D9C5 /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C005BE4B1B80EDD70061D9C5 /* ConnectionsViewController.m */; };
+		C005BE4F1B80F8090061D9C5 /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C005BE4E1B80F8090061D9C5 /* MCManager.m */; };
+		C0130B011B81C0B500A560CF /* sample_file1.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0130AFF1B81C0B500A560CF /* sample_file1.txt */; };
+		C0130B021B81C0B500A560CF /* sample_file2.txt in Resources */ = {isa = PBXBuildFile; fileRef = C0130B001B81C0B500A560CF /* sample_file2.txt */; };
+		C0130B041B81D58100A560CF /* LaunchImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0130B031B81D58100A560CF /* LaunchImage.xcassets */; };
+		C0130B061B81DDF900A560CF /* Icones.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0130B051B81DDF900A560CF /* Icones.xcassets */; };
+		C01EF8471B815A2E0085FA12 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = C01EF8461B815A2E0085FA12 /* Entitlements.plist */; };
+		C0A220551B8250810048B70C /* TabbarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A220541B8250810048B70C /* TabbarControllerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C005BE3B1B80ED510061D9C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C005BE161B80ED510061D9C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C005BE1D1B80ED510061D9C5;
+			remoteInfo = SimpleMCChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C005BE1E1B80ED510061D9C5 /* SimpleMCChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMCChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C005BE221B80ED510061D9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C005BE231B80ED510061D9C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C005BE251B80ED510061D9C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C005BE261B80ED510061D9C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C005BE281B80ED510061D9C5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C005BE291B80ED510061D9C5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C005BE2B1B80ED510061D9C5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C005BE2C1B80ED510061D9C5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C005BE2F1B80ED510061D9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C005BE341B80ED510061D9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C005BE3A1B80ED510061D9C5 /* SimpleMCChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMCChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C005BE3F1B80ED510061D9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C005BE401B80ED510061D9C5 /* SimpleMCChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleMCChatTests.m; sourceTree = "<group>"; };
+		C005BE4A1B80EDD70061D9C5 /* ConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsViewController.h; sourceTree = "<group>"; };
+		C005BE4B1B80EDD70061D9C5 /* ConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsViewController.m; sourceTree = "<group>"; };
+		C005BE4D1B80F8090061D9C5 /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		C005BE4E1B80F8090061D9C5 /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
+		C0130AFF1B81C0B500A560CF /* sample_file1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_file1.txt; sourceTree = "<group>"; };
+		C0130B001B81C0B500A560CF /* sample_file2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_file2.txt; sourceTree = "<group>"; };
+		C0130B031B81D58100A560CF /* LaunchImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LaunchImage.xcassets; sourceTree = "<group>"; };
+		C0130B051B81DDF900A560CF /* Icones.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icones.xcassets; sourceTree = "<group>"; };
+		C01EF8461B815A2E0085FA12 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Entitlements.plist; path = ../Entitlements.plist; sourceTree = "<group>"; };
+		C0A220531B8250810048B70C /* TabbarControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarControllerViewController.h; sourceTree = "<group>"; };
+		C0A220541B8250810048B70C /* TabbarControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarControllerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C005BE1B1B80ED510061D9C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C005BE371B80ED510061D9C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C005BE151B80ED510061D9C5 = {
+			isa = PBXGroup;
+			children = (
+				C005BE201B80ED510061D9C5 /* SimpleMCChat */,
+				C005BE3D1B80ED510061D9C5 /* SimpleMCChatTests */,
+				C005BE1F1B80ED510061D9C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C005BE1F1B80ED510061D9C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C005BE1E1B80ED510061D9C5 /* SimpleMCChat.app */,
+				C005BE3A1B80ED510061D9C5 /* SimpleMCChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C005BE201B80ED510061D9C5 /* SimpleMCChat */ = {
+			isa = PBXGroup;
+			children = (
+				C044938F1B8253B40063746F /* Interface Building */,
+				C044938E1B82538B0063746F /* MultipeerConnectivity Management */,
+				C044938D1B82536E0063746F /* ViewControllers */,
+				C005BE251B80ED510061D9C5 /* AppDelegate.h */,
+				C005BE261B80ED510061D9C5 /* AppDelegate.m */,
+				C04493901B8253E10063746F /* User Document Files */,
+				C005BE211B80ED510061D9C5 /* Supporting Files */,
+			);
+			path = SimpleMCChat;
+			sourceTree = "<group>";
+		};
+		C005BE211B80ED510061D9C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C01EF8461B815A2E0085FA12 /* Entitlements.plist */,
+				C005BE221B80ED510061D9C5 /* Info.plist */,
+				C005BE231B80ED510061D9C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C005BE3D1B80ED510061D9C5 /* SimpleMCChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				C005BE401B80ED510061D9C5 /* SimpleMCChatTests.m */,
+				C005BE3E1B80ED510061D9C5 /* Supporting Files */,
+			);
+			path = SimpleMCChatTests;
+			sourceTree = "<group>";
+		};
+		C005BE3E1B80ED510061D9C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C005BE3F1B80ED510061D9C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C044938D1B82536E0063746F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C005BE281B80ED510061D9C5 /* FirstViewController.h */,
+				C005BE291B80ED510061D9C5 /* FirstViewController.m */,
+				C005BE2B1B80ED510061D9C5 /* SecondViewController.h */,
+				C005BE2C1B80ED510061D9C5 /* SecondViewController.m */,
+				C005BE4A1B80EDD70061D9C5 /* ConnectionsViewController.h */,
+				C005BE4B1B80EDD70061D9C5 /* ConnectionsViewController.m */,
+				C0A220531B8250810048B70C /* TabbarControllerViewController.h */,
+				C0A220541B8250810048B70C /* TabbarControllerViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C044938E1B82538B0063746F /* MultipeerConnectivity Management */ = {
+			isa = PBXGroup;
+			children = (
+				C005BE4D1B80F8090061D9C5 /* MCManager.h */,
+				C005BE4E1B80F8090061D9C5 /* MCManager.m */,
+			);
+			name = "MultipeerConnectivity Management";
+			sourceTree = "<group>";
+		};
+		C044938F1B8253B40063746F /* Interface Building */ = {
+			isa = PBXGroup;
+			children = (
+				C0130B051B81DDF900A560CF /* Icones.xcassets */,
+				C0130B031B81D58100A560CF /* LaunchImage.xcassets */,
+				C005BE2E1B80ED510061D9C5 /* Main.storyboard */,
+				C005BE331B80ED510061D9C5 /* LaunchScreen.xib */,
+			);
+			name = "Interface Building";
+			sourceTree = "<group>";
+		};
+		C04493901B8253E10063746F /* User Document Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0130AFF1B81C0B500A560CF /* sample_file1.txt */,
+				C0130B001B81C0B500A560CF /* sample_file2.txt */,
+			);
+			name = "User Document Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C005BE1D1B80ED510061D9C5 /* SimpleMCChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C005BE441B80ED510061D9C5 /* Build configuration list for PBXNativeTarget "SimpleMCChat" */;
+			buildPhases = (
+				C005BE1A1B80ED510061D9C5 /* Sources */,
+				C005BE1B1B80ED510061D9C5 /* Frameworks */,
+				C005BE1C1B80ED510061D9C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMCChat;
+			productName = SimpleMCChat;
+			productReference = C005BE1E1B80ED510061D9C5 /* SimpleMCChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C005BE391B80ED510061D9C5 /* SimpleMCChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C005BE471B80ED510061D9C5 /* Build configuration list for PBXNativeTarget "SimpleMCChatTests" */;
+			buildPhases = (
+				C005BE361B80ED510061D9C5 /* Sources */,
+				C005BE371B80ED510061D9C5 /* Frameworks */,
+				C005BE381B80ED510061D9C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C005BE3C1B80ED510061D9C5 /* PBXTargetDependency */,
+			);
+			name = SimpleMCChatTests;
+			productName = SimpleMCChatTests;
+			productReference = C005BE3A1B80ED510061D9C5 /* SimpleMCChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C005BE161B80ED510061D9C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = BO;
+				TargetAttributes = {
+					C005BE1D1B80ED510061D9C5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C005BE391B80ED510061D9C5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C005BE1D1B80ED510061D9C5;
+					};
+				};
+			};
+			buildConfigurationList = C005BE191B80ED510061D9C5 /* Build configuration list for PBXProject "SimpleMCChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C005BE151B80ED510061D9C5;
+			productRefGroup = C005BE1F1B80ED510061D9C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C005BE1D1B80ED510061D9C5 /* SimpleMCChat */,
+				C005BE391B80ED510061D9C5 /* SimpleMCChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C005BE1C1B80ED510061D9C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0130B011B81C0B500A560CF /* sample_file1.txt in Resources */,
+				C01EF8471B815A2E0085FA12 /* Entitlements.plist in Resources */,
+				C0130B061B81DDF900A560CF /* Icones.xcassets in Resources */,
+				C0130B041B81D58100A560CF /* LaunchImage.xcassets in Resources */,
+				C005BE301B80ED510061D9C5 /* Main.storyboard in Resources */,
+				C0130B021B81C0B500A560CF /* sample_file2.txt in Resources */,
+				C005BE351B80ED510061D9C5 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C005BE381B80ED510061D9C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C005BE1A1B80ED510061D9C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C005BE4C1B80EDD70061D9C5 /* ConnectionsViewController.m in Sources */,
+				C005BE4F1B80F8090061D9C5 /* MCManager.m in Sources */,
+				C0A220551B8250810048B70C /* TabbarControllerViewController.m in Sources */,
+				C005BE2D1B80ED510061D9C5 /* SecondViewController.m in Sources */,
+				C005BE271B80ED510061D9C5 /* AppDelegate.m in Sources */,
+				C005BE2A1B80ED510061D9C5 /* FirstViewController.m in Sources */,
+				C005BE241B80ED510061D9C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C005BE361B80ED510061D9C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C005BE411B80ED510061D9C5 /* SimpleMCChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C005BE3C1B80ED510061D9C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C005BE1D1B80ED510061D9C5 /* SimpleMCChat */;
+			targetProxy = C005BE3B1B80ED510061D9C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C005BE2E1B80ED510061D9C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C005BE2F1B80ED510061D9C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C005BE331B80ED510061D9C5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C005BE341B80ED510061D9C5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C005BE421B80ED510061D9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C005BE431B80ED510061D9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C005BE451B80ED510061D9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = SimpleMCChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C005BE461B80ED510061D9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = SimpleMCChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C005BE481B80ED510061D9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleMCChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleMCChat.app/SimpleMCChat";
+			};
+			name = Debug;
+		};
+		C005BE491B80ED510061D9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleMCChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleMCChat.app/SimpleMCChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C005BE191B80ED510061D9C5 /* Build configuration list for PBXProject "SimpleMCChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C005BE421B80ED510061D9C5 /* Debug */,
+				C005BE431B80ED510061D9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C005BE441B80ED510061D9C5 /* Build configuration list for PBXNativeTarget "SimpleMCChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C005BE451B80ED510061D9C5 /* Debug */,
+				C005BE461B80ED510061D9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C005BE471B80ED510061D9C5 /* Build configuration list for PBXNativeTarget "SimpleMCChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C005BE481B80ED510061D9C5 /* Debug */,
+				C005BE491B80ED510061D9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C005BE161B80ED510061D9C5 /* Project object */;
+}
