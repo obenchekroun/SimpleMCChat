@@ -50,6 +50,10 @@ or
 
 - Make sure a matching codesigning identity is set in "General", section "Identity" (Both "Target" and "Project") 
 
+*NB : scripts are using terminal-notifier to notify the completion of pushing.
+See https://github.com/julienXX/terminal-notifier and install by using :*
+
+	$ brew install terminal-notifier
 
 
 
