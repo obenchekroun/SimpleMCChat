@@ -10,7 +10,7 @@ Due to this, it's only compatible with iOS >= 7.0
 
 NB : if you are a registered iOS developer, see the last paragraph
 
-####*To get it working on your **Jailbroken** device, follow the steps below* (for Xcode >=6 and iOS >= 7):
+####*To get it working on your Jailbroken device, follow the steps below* (for Xcode >=6 and iOS >= 7):
 
 - Install AppSync Unified on device from cydia.angelxwind.net repo
 - Open */Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/SDKSettings.plist*
@@ -26,7 +26,7 @@ Now you can use your jailbroken device as a testing device !
 
 ####*If you want it to work on any jailbroken iPhone :*
 
-- Once its compiled, right-click on *Products>SimpleMCChat.app*  in the project hierarchy and choose "Show in Finder"
+- Once it's compiled, right-click on *Products>SimpleMCChat.app*  in the project hierarchy and choose "Show in Finder"
 - Copy the .app anywhere
 - set permission of the executable *SimpleMCChat.app/SimpleMCChat* to 755 :
 
