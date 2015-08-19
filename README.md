@@ -44,7 +44,7 @@ Now you can use your jailbroken device as a testing device !
 or
 	iphone$ uicache
 
-*If you are a registered iPhone Developer :*
+####*If you are a registered iPhone Developer :*
 
 - Set "Code Signing Identity" parameter in "Build settings" (Both "Target" and "Project") to "iOS Developer"
 
