@@ -42,6 +42,7 @@ Now you can use your jailbroken device as a testing device !
 		iphone$ killall SpringBoard
 
 or
+
 	iphone$ uicache
 
 ####*If you are a registered iPhone Developer :*
