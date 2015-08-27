@@ -13,7 +13,11 @@ NB : if you are a registered iOS developer, see the last paragraph
 ####*To get it working on your Jailbroken device, follow the steps below* (for Xcode >=6 and iOS >= 7):
 
 - Install AppSync Unified on device from cydia.angelxwind.net repo
-- Open */Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/SDKSettings.plist*
+- Open
+
+*/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer
+/SDKs/iPhoneOS.sdk/SDKSettings.plist*
+
 - Change value of parameter **AD_HOC_CODE_SIGNING_ALLOWED** to **YES**
 - Change value of parameter **CODE_SIGNING_REQUIRED** to **NO**
 - Set "Code Signing Identity" parameter in "Build settings" (Both "Target" and "Project") to "Ad Hoc Code Sign"
@@ -29,31 +33,40 @@ Now you can use your jailbroken device as a testing device !
 - Once it's compiled, right-click on *Products>SimpleMCChat.app*  in the project hierarchy and choose "Show in Finder"
 - Copy the .app anywhere
 - set permission of the executable *SimpleMCChat.app/SimpleMCChat* to 755 :
-
+```bash
 		$ chmod  755 SimpleMCChat.app/SimpleMCChat
-
+```
+		
 - ldid sign the executable :
-
+```bash
 		$ ldid -S SimpleMCChat.app/SimpleMCChat
-
+```
 - ssh it to your device and respring :
 
-
-		iphone$ killall SpringBoard
+```bash
+	iphone$ killall SpringBoard
+```
 	or
-
+```bash
 		iphone$ uicache
-
+```
 ####*If you are a registered iPhone Developer :*
 
 - Set "Code Signing Identity" parameter in "Build settings" (Both "Target" and "Project") to "iOS Developer"
 
 - Make sure a matching codesigning identity is set in "General", section "Identity" (Both "Target" and "Project") 
 
+#### The scripts used are using the following tools. Make sure to install them beforehand
+
 *NB : scripts are using terminal-notifier to notify the completion of pushing.
 See https://github.com/julienXX/terminal-notifier and install by using :*
-
+```bash
 	$ brew install terminal-notifier
+```
 
+*NB : The conversion from .md to .pdf needs pandoc, which depends on a Latex distribution. To install pandoc :*
+```bash
+	$ brew install pandoc
+```
 
 
